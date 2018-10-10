@@ -37,24 +37,12 @@ function vizIt(data, tabletop) {
             '<span class="secondary-figure_name">' + pageData[i].key + '</span>' +
           '</div>' +
         '</div>';
-      $('#secondary-figures').append(figureHtml);
-      
-      
+      $('#secondary-figures').append(figureHtml);    
     }
-    
-    
-    
   }
-  
   
 }
 
-  
-
 // kick everything off
 init()
-
-// checkin with Marian
-// SAMIL for auth for RC
-// PII issues
 

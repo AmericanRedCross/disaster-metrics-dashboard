@@ -1,11 +1,10 @@
-html, body, #map {
+html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
 }
-body {
-  padding: 0;
-  margin: 0;
-}
+
 
 .gored {
   color: #c22a26;
@@ -27,4 +26,24 @@ body {
   color: rgba(0,0,0,.48);
   font-weight: 400;
   font-size: 12px;
+}
+
+#map-lombok {
+  height: 100%;
+  width: 100%;
+}
+#map-lombok svg path {
+  pointer-events: all;
+}
+.leaflet-container {
+  background-color:rgba(255,255,255,0.4);
+}
+.district {
+  stroke-linecap: round;
+  fill: rgba(16,20,18,0.1);
+  stroke: #000;
+  stroke-width: 1px;
+}
+.district__default {
+  
 }
