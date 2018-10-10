@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="125mm"
+   height="75mm"
+   viewBox="0 0 125 75"
+   version="1.1"
+   id="svg4623"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Indonesian Red Cross.svg">
+  <defs
+     id="defs4617" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="548.6912"
+     inkscape:cy="443.9559"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4516"
+     showgrid="true"
+     inkscape:window-width="1845"
+     inkscape:window-height="1057"
+     inkscape:window-x="67"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4505" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4620">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-222)">
+    <g
+       transform="matrix(4.7002394,0,0,4.7002394,-232.47437,-1121.0224)"
+       id="g4516">
+      <g
+         id="g4517"
+         transform="translate(-10.040079,44.825319)">
+        <path
+           style="fill:#ff3333;stroke-width:0.00926737"
+           inkscape:connector-curvature="0"
+           d="m 65.972068,245.59393 v 1.57545 H 64.34101 l 0.01853,1.99249 h 1.62179 v 1.57545 h 1.946148 v -1.57545 h 1.547651 v -1.99249 h -1.547651 v -1.57545 z"
+           id="path4487" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.68223906px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06705599"
+           x="73.151878"
+           y="245.98839"
+           id="text5099"
+           transform="scale(1.0015818,0.99842067)"><tspan
+             sodipodi:role="line"
+             id="tspan5097"
+             x="73.151878"
+             y="245.98839"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue LT Std';-inkscape-font-specification:'Helvetica Neue LT Std';stroke-width:0.06705599">Palang</tspan><tspan
+             sodipodi:role="line"
+             x="73.151878"
+             y="249.46394"
+             id="tspan5101"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue LT Std';-inkscape-font-specification:'Helvetica Neue LT Std';stroke-width:0.06705599">Merah</tspan><tspan
+             sodipodi:role="line"
+             x="73.151878"
+             y="252.9395"
+             id="tspan5103"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue LT Std';-inkscape-font-specification:'Helvetica Neue LT Std';stroke-width:0.06705599">Indonesia</tspan></text>
+        <g
+           inkscape:export-ydpi="31.200001"
+           inkscape:export-xdpi="31.200001"
+           transform="matrix(0.00938799,0,0,0.00938799,62.356597,243.74654)"
+           id="g4487">
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.96295774;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 487.875,14.125 C 394,14.25 301.5,81 281,214 -2,164 -80,509 146,618 9,926 353,1059 492,860 615,1061 989,889 835,618 1108,502 977,143 703,214 677,80.5 581.75,14 487.875,14.125 Z"
+             id="rect4497" />
+          <path
+             style="fill:#ffffff;fill-opacity:0;stroke:#ff3333;stroke-width:30"
+             inkscape:connector-curvature="0"
+             d="M 492,860 C 353,1059 9,926 146,618 -80,509 -2,164 281,214 322,-52 651,-53 703,214 977,143 1108,502 835,618 989,889 615,1061 492,860 Z"
+             id="path4485-2" />
+          <path
+             style="fill:#ff3333"
+             inkscape:connector-curvature="0"
+             d="M 388,210 V 380 H 212 l 2,215 H 389 V 765 H 599 V 595 H 766 V 380 H 599 V 210 Z"
+             id="path4487-4" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

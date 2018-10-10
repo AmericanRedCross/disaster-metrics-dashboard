@@ -1,0 +1,30 @@
+html, body, #map {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.gored {
+  color: #c22a26;
+}
+.key-figure_number {
+  font-size: 22px;
+}
+.key-figure_name {
+  text-transform: uppercase;
+  color: rgba(0,0,0,.48);
+  font-weight: 300;
+  font-size: 18px;
+}
+.secondary-figure_number {
+  font-size: 18px;
+}
+.secondary-figure_name {
+  text-transform: uppercase;
+  color: rgba(0,0,0,.48);
+  font-weight: 400;
+  font-size: 12px;
+}
