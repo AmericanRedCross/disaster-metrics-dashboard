@@ -37,7 +37,7 @@ function vizIt(data, tabletop) {
   for(i = 0; i < pageData.length; i++) {
     if(pageData[i].key == "secondary-figure") {
       var figureHtml = '<div class="col-xs-3">' +
-          '<img class="pull-left" src="../img/secondary-icons/' + pageData[i].img + '" height="60px">' +
+          '<img class="pull-left svg-convert secondary-icon color ' + pageData[i].color + '" src="../img/secondary-icons/' + pageData[i].img + '" height="60px">' +
           '<div><span class="secondary-figure_number">' + formatNumber(pageData[i].value) + '</span><br>' +
             '<span class="secondary-figure_name">' + pageData[i].label + '</span>' +
           '</div>' +
@@ -45,6 +45,8 @@ function vizIt(data, tabletop) {
       $('#secondary-figures').append(figureHtml);    
     }
   }
+  
+  $('.svg-convert').svgConvert();
   
   $('#figure-sources').html(findObjectByKey(pageData, "key", "sources").label)
   

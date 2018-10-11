@@ -52,3 +52,61 @@ html, body {
 .district__default {
   
 }
+
+.secondary-icon > path  {
+  fill: #C9C3C1 !important;
+}
+.secondary-icon.color.ifrc > path  {
+  fill: #E32219 !important;
+}
+.secondary-icon.color.primary-red-0 > path {
+  fill: #F63440 !important;
+}
+.secondary-icon.color.primary-darkred-0 > path {
+  fill: #7A1600 !important;
+}
+.secondary-icon.color.primary-darkred-1 > path {
+  fill: #C3ADA9 !important;
+}
+.secondary-icon.color.primary-darkred-2 > path {
+  fill: #E1D6D4 !important;
+}
+.secondary-icon.color.primary-grey-0 > path {
+  fill: #786A65 !important;
+}
+.secondary-icon.color.primary-grey-1 > path {
+  fill: #C9C3C1 !important;
+}
+.secondary-icon.color.primary-grey-2 > path {
+  fill: #E4E1E0 !important;
+}
+.secondary-icon.color.secondary-yellow-0 > path {
+  fill: #FFD200 !important;
+}
+.secondary-icon.color.secondary-yellow-1 > path {
+  fill: #FFE466 !important;
+}
+.secondary-icon.color.secondary-yellow-2 > path {
+  fill: #FFF6CC !important;
+}
+.secondary-icon.color.secondary-orange-0 > path {
+  fill: #FF5014 !important;
+}
+.secondary-icon.color.secondary-orange-1 > path {
+  fill: #FF9966 !important;
+}
+.secondary-icon.color.secondary-orange-2 > path {
+  fill: #FFDCD0 !important;
+}
+.secondary-icon.color.secondary-blue-0 > path {
+  fill: #00A0DC !important;
+}
+.secondary-icon.color.secondary-blue-1 > path {
+  fill: #99D9F1 !important;
+}
+.secondary-icon.color.secondary-blue-2 > path {
+  fill: #CCECF8 !important;
+}
+
+  
+  
