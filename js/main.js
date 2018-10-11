@@ -14,7 +14,8 @@ function findObjectByKey(array, key, value) {
 
 
 // get the data from the google spreadhsheet
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/10fmbWi62IKI_900kHJKsk1DQE6craab6vWPAjfn2le0/';
+// Url is defined on each index.html page
+// var publicSpreadsheetUrl = '';
 function init() {
   Tabletop.init( { key: publicSpreadsheetUrl, callback: vizIt } )
 }
