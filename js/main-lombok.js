@@ -12,8 +12,6 @@ function findObjectByKey(array, key, value) {
   return null;
 }
 
-// these will not be used to provide key stats from the `overview` tab
-var reservedFields = ["overview-text", "target-beneficiaries", "requested-amount", "funding"]
 
 // get the data from the google spreadhsheet
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/10fmbWi62IKI_900kHJKsk1DQE6craab6vWPAjfn2le0/';
@@ -25,21 +23,29 @@ function vizIt(data, tabletop) {
   var pageData = data.overview.elements;
   
   $('#overview-text').text(findObjectByKey(pageData, "key", "overview-text").value)
-  $('#target-beneficiaries').text(formatNumber(findObjectByKey(pageData, "key", "target-beneficiaries").value))
-  $('#requested-amount').text(formatNumber(findObjectByKey(pageData, "key", "requested-amount").value))
-  $('#funding').text(formatNumber(findObjectByKey(pageData, "key", "funding").value))
+  var keyTarget = findObjectByKey(pageData, "key", "key-target")
+  $('#key-target').text(formatNumber(keyTarget.value))
+  $('#key-target-label').html(keyTarget.label)
+  var keyMoney1 = findObjectByKey(pageData, "key", "key-money1")
+  $('#key-money1').text(formatNumber(keyMoney1.value))
+  $('#key-money1-label').html(keyMoney1.label)
+  var keyMoney2 = findObjectByKey(pageData, "key", "key-money2")
+  $('#key-money2').text(formatNumber(keyMoney2.value))
+  $('#key-money2-label').html(keyMoney2.label)
   
   for(i = 0; i < pageData.length; i++) {
-    if($.inArray(pageData[i].key, reservedFields) == -1) {
+    if(pageData[i].key == "secondary-figure") {
       var figureHtml = '<div class="col-xs-3">' +
           '<img class="pull-left" src="../img/' + pageData[i].img + '" height="60px">' +
           '<div><span class="secondary-figure_number">' + pageData[i].value + '</span><br>' +
-            '<span class="secondary-figure_name">' + pageData[i].key + '</span>' +
+            '<span class="secondary-figure_name">' + pageData[i].label + '</span>' +
           '</div>' +
         '</div>';
       $('#secondary-figures').append(figureHtml);    
     }
   }
+  
+  $('#figure-sources').html(findObjectByKey(pageData, "key", "sources").label)
   
 }
 

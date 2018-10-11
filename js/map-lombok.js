@@ -8,7 +8,8 @@ var map = L.map('map-lombok', {
   layers: [hotLayer],
   center: new L.LatLng(-8.5837,116.2738),
   zoom: 9,
-  minZoom: 8
+  minZoom: 8,
+  maxBounds: [ [-7.5, 115.0], [-9.7, 117.5] ]
 });
 
 map.fitBounds([

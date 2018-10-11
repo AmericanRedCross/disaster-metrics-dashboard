@@ -27,6 +27,11 @@ html, body {
   font-weight: 400;
   font-size: 12px;
 }
+.small-text {
+  color: rgba(0,0,0,.48);
+  font-size: 10px;
+  font-style: italic;
+}
 
 #map-lombok {
   height: 100%;
