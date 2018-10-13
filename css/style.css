@@ -53,103 +53,103 @@ html, body {
   
 }
 
-.secondary-icon > path  {
+.secondary-icon path  {
   fill: #C9C3C1 !important;
 }
-.secondary-icon.color.ifrc > path  {
+.secondary-icon.color.ifrc path  {
   fill: #E32219 !important;
 }
-.secondary-icon.color.primary-red-0 > path {
+.secondary-icon.color.primary-red-0 path {
   fill: #F63440 !important;
 }
-.secondary-icon.color.primary-darkred-0 > path {
+.secondary-icon.color.primary-darkred-0 path {
   fill: #7A1600 !important;
 }
-.secondary-icon.color.primary-darkred-1 > path {
+.secondary-icon.color.primary-darkred-1 path {
   fill: #C3ADA9 !important;
 }
-.secondary-icon.color.primary-darkred-2 > path {
+.secondary-icon.color.primary-darkred-2 path {
   fill: #E1D6D4 !important;
 }
-.secondary-icon.color.primary-grey-0 > path {
+.secondary-icon.color.primary-grey-0 path {
   fill: #786A65 !important;
 }
-.secondary-icon.color.primary-grey-1 > path {
+.secondary-icon.color.primary-grey-1 path {
   fill: #C9C3C1 !important;
 }
-.secondary-icon.color.primary-grey-2 > path {
+.secondary-icon.color.primary-grey-2 path {
   fill: #E4E1E0 !important;
 }
-.secondary-icon.color.secondary-yellow-0 > path {
+.secondary-icon.color.secondary-yellow-0 path {
   fill: #FFD200 !important;
 }
-.secondary-icon.color.secondary-yellow-1 > path {
+.secondary-icon.color.secondary-yellow-1 path {
   fill: #FFE466 !important;
 }
-.secondary-icon.color.secondary-yellow-2 > path {
+.secondary-icon.color.secondary-yellow-2 path {
   fill: #FFF6CC !important;
 }
-.secondary-icon.color.secondary-orange-0 > path {
+.secondary-icon.color.secondary-orange-0 path {
   fill: #FF5014 !important;
 }
-.secondary-icon.color.secondary-orange-1 > path {
+.secondary-icon.color.secondary-orange-1 path {
   fill: #FF9966 !important;
 }
-.secondary-icon.color.secondary-orange-2 > path {
+.secondary-icon.color.secondary-orange-2 path {
   fill: #FFDCD0 !important;
 }
-.secondary-icon.color.secondary-blue-0 > path {
+.secondary-icon.color.secondary-blue-0 path {
   fill: #00A0DC !important;
 }
-.secondary-icon.color.secondary-blue-1 > path {
+.secondary-icon.color.secondary-blue-1 path {
   fill: #99D9F1 !important;
 }
-.secondary-icon.color.secondary-blue-2 > path {
+.secondary-icon.color.secondary-blue-2 path {
   fill: #CCECF8 !important;
 }
-.secondary-icon.color.secondary-magenta-0 > path {
+.secondary-icon.color.secondary-magenta-0 path {
   fill: #D20073 !important;
 }
-.secondary-icon.color.secondary-magenta-1 > path {
+.secondary-icon.color.secondary-magenta-1 path {
   fill: #ED99C7 !important;
 }
-.secondary-icon.color.secondary-magenta-2 > path {
+.secondary-icon.color.secondary-magenta-2 path {
   fill: #F6CCE3 !important;
 }
-.secondary-icon.color.secondary-green-0 > path {
+.secondary-icon.color.secondary-green-0 path {
   fill: #8CD200 !important;
 }
-.secondary-icon.color.secondary-green-1 > path {
+.secondary-icon.color.secondary-green-1 path {
   fill: #BAE466 !important;
 }
-.secondary-icon.color.secondary-green-2 > path {
+.secondary-icon.color.secondary-green-2 path {
   fill: #E8F6CC !important;
 }  
-.secondary-icon.color.secondary-darkblue-0 > path {
+.secondary-icon.color.secondary-darkblue-0 path {
   fill: #003246 !important;
 }
-.secondary-icon.color.secondary-darkblue-1 > path {
+.secondary-icon.color.secondary-darkblue-1 path {
   fill: #99ADB5 !important;
 }
-.secondary-icon.color.secondary-darkblue-2 > path {
+.secondary-icon.color.secondary-darkblue-2 path {
   fill: #CCD6DA !important;
 }
-.secondary-icon.color.secondary-purple-0 > path {
+.secondary-icon.color.secondary-purple-0 path {
   fill: #5A325F !important;
 }
-.secondary-icon.color.secondary-purple-1 > path {
+.secondary-icon.color.secondary-purple-1 path {
   fill: #BDADBF !important;
 }
-.secondary-icon.color.secondary-purple-2 > path {
+.secondary-icon.color.secondary-purple-2 path {
   fill: #DED6DF !important;
 }
-.secondary-icon.color.secondary-darkgreen-0 > path {
+.secondary-icon.color.secondary-darkgreen-0 path {
   fill: #555F1E !important;
 }
-.secondary-icon.color.secondary-darkgreen-1 > path {
+.secondary-icon.color.secondary-darkgreen-1 path {
   fill: #999F78 !important;
 }
-.secondary-icon.color.secondary-darkgreen-2 > path {
+.secondary-icon.color.secondary-darkgreen-2 path {
   fill: #DDDFD2 !important;
 }
   
