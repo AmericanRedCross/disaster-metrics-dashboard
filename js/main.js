@@ -34,6 +34,8 @@ function vizIt(data, tabletop) {
   $('#key-money2').text(formatNumber(keyMoney2.value))
   $('#key-money2-label').html(keyMoney2.label)
   
+  var sectionHtml = '<div class="row">';
+  var figureCount = 0;
   for(i = 0; i < pageData.length; i++) {
     if(pageData[i].key == "secondary-figure") {
       var figureHtml = '<div class="col-xs-3">' +
@@ -42,9 +44,14 @@ function vizIt(data, tabletop) {
             '<span class="secondary-figure_name">' + pageData[i].label + '</span>' +
           '</div>' +
         '</div>';
-      $('#secondary-figures').append(figureHtml);    
+      sectionHtml += figureHtml; 
+      figureCount ++; 
+      // TODO: fix this mess
+      if(figureCount==4 || figureCount==8 || figureCount==12 || figureCount==16) { sectionHtml += '</div><div class="row">'; }  
     }
   }
+  sectionHtml += '</div>'; 
+  $('#secondary-figures').append(sectionHtml);
   
   $('.svg-convert').svgConvert();
   
