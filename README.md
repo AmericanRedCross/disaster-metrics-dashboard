@@ -2,7 +2,9 @@
 
 This project allows you to create a dashboard with high-level numbers for a disaster impact and response. The primary use case is when a single IFRC Appeal includes multiple operations. For example, the 2018 Indonesia earthquakes and tsunami appeal that included operations to separate disaster events in both Sulawesi and Lombok. Pages on the IFRC GO platform are created for each appeal, not operation, and only has a single overview numbers section. This project allows you to create an overview section for each operation and then add them to a GO page via an iframe embed in the "Additional Graphics" section.
 
-#### Creating a new dashboard
+![screen shot of a dashboard](https://raw.githubusercontent.com/AmericanRedCross/disaster-metrics-dashboard/gh-pages/img/screen-shot-example.png)
+
+### Creating a new dashboard
 
 - Request to be a contributor or fork the repository, clone, and create a new branch for your changes.
 - Make a copy one of the dashboard folders (e.g. `.\2018-idn-sulawesi\`) and rename it. It's nice to stick to the naming convention of 4 digit year, dash, alpha 3 iso code for the country, dash, descriptor. All lowercase. For a multi-country disaster, you'll need to pick one country or think of something creative.
@@ -56,7 +58,7 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1N3g6lG4J16qC
 ```
  
 
-#### `secondary-figure` color options
+### `secondary-figure` color options
 
 - ![#C9C3C1](https://placehold.it/20/C9C3C1/000000?text=+`) (this is the default color)
 - ![#E32219](https://placehold.it/20/E32219/000000?text=+) &nbsp; `ifrc`
@@ -92,7 +94,7 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1N3g6lG4J16qC
 - ![#999F78](https://placehold.it/20/999F78/000000?text=+) &nbsp;`secondary-darkgreen-1`
 - ![#DDDFD2](https://placehold.it/20/DDDFD2/000000?text=+) &nbsp;`secondary-darkgreen-2`
 
-#### Adding new secondary icons
+### Adding new secondary icons
 
 - If using Adobe Illustrator to save a new SVG icon for the secondary-icon set, under Advanced Options, for CSS Properties, set the option to "Style Attributes" (not "style Elements").
 - The color of new icons should be #C9C3C1 with 100% opacity.
