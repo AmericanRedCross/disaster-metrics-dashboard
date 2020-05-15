@@ -31,12 +31,12 @@ Impact figures provided from <a href="https://sites.google.com/view/gempadonggal
 <br>Other data: PMI, 02-Jan 2019 
 ```
   
-- This project uses [Tabletop.js](https://github.com/jsoma/tabletop) to load the Google spreadsheet data. Follow the [instructions](https://github.com/jsoma/tabletop#1-publishing-your-google-sheet) for "1) Publishing your Google Sheet" to get the URL for your data.
+- This project uses [PapaParse](https://www.papaparse.com/) to load the Google spreadsheet data. Publish the Google Sheet worksheet to web as a csv and share your file so that anyone with the link may read/view the data.
 - In the `index.html` file, edit what should be about line 70 so that is has the URL for your data.
 
 ```
 <script>
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1N3g6lG4J16qCJ0dK2W0KhNF4h__jmR5Nhx6WV7oHaZg/';
+var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1EJhoA9DaqVD2MqREGCTNnUeHnLcEqqmeLbSx9T4MscQ/pub?output=csv';
 </script>
 ```
   
