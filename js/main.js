@@ -17,12 +17,16 @@ function findObjectByKey(array, key, value) {
 // Url is defined on each index.html page
 // var publicSpreadsheetUrl = '';
 function init() {
-  Tabletop.init( { key: publicSpreadsheetUrl, callback: vizIt } )
+  Papa.parse(publicSpreadsheetUrl, {
+    download: true,
+    header: true,
+    complete: function(results) {
+      vizIt(results.data);
+    }
+  });
 }
-function vizIt(data, tabletop) {
-  
-  var pageData = data.overview.elements;
-  
+function vizIt(pageData) {
+    
   $('#overview-text').text(findObjectByKey(pageData, "key", "overview-text").value)
   var keyTarget = findObjectByKey(pageData, "key", "key-target")
   $('#key-target').text(formatNumber(keyTarget.value))
